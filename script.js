@@ -3,7 +3,7 @@ var div=document.getElementById("div")
  var b=document.getElementById("ikki")
 function foo(){
     div.classList.add("div")
- if(a.value ==="Advakat" || a.value ==="advakat"){
+ if(a.value ==="Advokat" || a.value ==="advokat"){
        
  b.innerHTML=`${a.value} - yuridik va jismoniy shaxslarga profesional huquqiy yordam ko'rsatuvchi fuqaro`
  }else if(a.value ==="Affekt" || a.value ==="affekt"){
@@ -108,6 +108,6 @@ function foo(){
           b.innerHTML=`${a.value} - huquqshunoslik, sud idoralarinig qaror chiqarish huquqi to'g'risidagi fanlar majmuyi, huquqshunoslarnig amaliy faoliyati`
  }
  else{
-          b.innerHTML=`Bu "${a.value}" atama mavjud emas`      
+          b.innerHTML=`"${a.value}" atama mavjud emas`      
  }
 }
